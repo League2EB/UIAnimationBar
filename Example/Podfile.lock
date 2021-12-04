@@ -1,0 +1,33 @@
+PODS:
+  - CollectionKit (2.4.0):
+    - CollectionKit/Core (= 2.4.0)
+  - CollectionKit/Core (2.4.0)
+  - DeviceKit (4.4.0)
+  - TYCyclePagerView (1.2.0)
+  - UIAnimationBar (1.0.0):
+    - DeviceKit
+
+DEPENDENCIES:
+  - CollectionKit
+  - TYCyclePagerView
+  - UIAnimationBar (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CollectionKit
+    - DeviceKit
+    - TYCyclePagerView
+
+EXTERNAL SOURCES:
+  UIAnimationBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CollectionKit: 8f01e7629185bb81072c4aa734d105df5c2d1c8b
+  DeviceKit: 2c5d7485a2fa10b65c0091b2952d30843a6ba06d
+  TYCyclePagerView: 2b051dade0615c70784aa34f40c646feeddb7344
+  UIAnimationBar: 19f5c134694003ad5f458ef47c9b4f597b1c3550
+
+PODFILE CHECKSUM: 88619d89642ca7e1396086d2d80423f7093b498b
+
+COCOAPODS: 1.11.2

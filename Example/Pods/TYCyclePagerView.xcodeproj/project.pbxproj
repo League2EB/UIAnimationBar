@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16A88C6018625B763655630F45A65038 /* TYCyclePagerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F99554FFC9FE543FD10A471B49C8871 /* TYCyclePagerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32F6BBDED6BE48594265F042A95E396E /* TYCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5953B6557C043F8524ECCC606AF53D88 /* TYCyclePagerView.m */; };
+		86293A1F69B29CFBAB095BE65FF26622 /* TYCyclePagerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1AF46EB05BC6A11A00824B1314EE363 /* TYCyclePagerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B963FA3FAD0630C4A065FC2D7AA5E16 /* TYPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4163F637473779B86ADC1C95348F5C /* TYPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D66545203587C9E7898F19875AEFA241 /* TYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A54A1DADCF0BF7196C98FC12D6185281 /* TYPageControl.m */; };
+		DBF4A41E0596B5FFCABC58980A4E0AED /* TYCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E7D4005CD54ADB02CC00D4D5C84D7B /* TYCyclePagerTransformLayout.m */; };
+		DF3024C9396FC8B275A2669F153E518D /* TYCyclePagerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E506CAC8C70EA47A2299193FA106C64 /* TYCyclePagerView-dummy.m */; };
+		EC6F6B9D974B3325D23782A52AA49956 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552F9F97577891B68519EFB0B4D0BBB1 /* Foundation.framework */; };
+		EE33917212146554D117451A225727A1 /* TYCyclePagerTransformLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A32C1BBF913BFCD5B7C00AE9E287BD /* TYCyclePagerTransformLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09794077B313EE4833DF1487B20BE1D1 /* TYCyclePagerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TYCyclePagerView-Info.plist"; sourceTree = "<group>"; };
+		17DDF2F06089F1A1B4A910214F1312EE /* TYCyclePagerView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TYCyclePagerView; path = TYCyclePagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B1095F1261B7682B58116B11ECCE32 /* TYCyclePagerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYCyclePagerView.debug.xcconfig; sourceTree = "<group>"; };
+		3F123FE4D811519E65A7B301828152DF /* TYCyclePagerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TYCyclePagerView.release.xcconfig; sourceTree = "<group>"; };
+		552F9F97577891B68519EFB0B4D0BBB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		55A470AC15F97F831B5928DF2E3F3880 /* TYCyclePagerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TYCyclePagerView.modulemap; sourceTree = "<group>"; };
+		5953B6557C043F8524ECCC606AF53D88 /* TYCyclePagerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYCyclePagerView.m; path = TYCyclePagerViewDemo/TYCyclePagerView/TYCyclePagerView.m; sourceTree = "<group>"; };
+		6D4163F637473779B86ADC1C95348F5C /* TYPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYPageControl.h; path = TYCyclePagerViewDemo/TYCyclePagerView/TYPageControl.h; sourceTree = "<group>"; };
+		6E506CAC8C70EA47A2299193FA106C64 /* TYCyclePagerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TYCyclePagerView-dummy.m"; sourceTree = "<group>"; };
+		76A32C1BBF913BFCD5B7C00AE9E287BD /* TYCyclePagerTransformLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYCyclePagerTransformLayout.h; path = TYCyclePagerViewDemo/TYCyclePagerView/TYCyclePagerTransformLayout.h; sourceTree = "<group>"; };
+		8F99554FFC9FE543FD10A471B49C8871 /* TYCyclePagerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TYCyclePagerView.h; path = TYCyclePagerViewDemo/TYCyclePagerView/TYCyclePagerView.h; sourceTree = "<group>"; };
+		A23180F828BC0E8EA89D74BEBA60D351 /* TYCyclePagerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYCyclePagerView-prefix.pch"; sourceTree = "<group>"; };
+		A54A1DADCF0BF7196C98FC12D6185281 /* TYPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYPageControl.m; path = TYCyclePagerViewDemo/TYCyclePagerView/TYPageControl.m; sourceTree = "<group>"; };
+		F1AF46EB05BC6A11A00824B1314EE363 /* TYCyclePagerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TYCyclePagerView-umbrella.h"; sourceTree = "<group>"; };
+		F8E7D4005CD54ADB02CC00D4D5C84D7B /* TYCyclePagerTransformLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TYCyclePagerTransformLayout.m; path = TYCyclePagerViewDemo/TYCyclePagerView/TYCyclePagerTransformLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43BDC9A728F9F2503E8A0A931CC243F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6F6B9D974B3325D23782A52AA49956 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13D0825BEBB8A9136C3A3A712299FB13 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55A470AC15F97F831B5928DF2E3F3880 /* TYCyclePagerView.modulemap */,
+				6E506CAC8C70EA47A2299193FA106C64 /* TYCyclePagerView-dummy.m */,
+				09794077B313EE4833DF1487B20BE1D1 /* TYCyclePagerView-Info.plist */,
+				A23180F828BC0E8EA89D74BEBA60D351 /* TYCyclePagerView-prefix.pch */,
+				F1AF46EB05BC6A11A00824B1314EE363 /* TYCyclePagerView-umbrella.h */,
+				18B1095F1261B7682B58116B11ECCE32 /* TYCyclePagerView.debug.xcconfig */,
+				3F123FE4D811519E65A7B301828152DF /* TYCyclePagerView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TYCyclePagerView";
+			sourceTree = "<group>";
+		};
+		342FA329D939318E1037228A0B8797C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				519B78605A09A426E20778EFD90BCEA4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35EAA483A0DE6A378D16EEAF32D25EB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17DDF2F06089F1A1B4A910214F1312EE /* TYCyclePagerView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C7C03ACE538F94AEDFA4BE3BD435761 /* TYCyclePagerView */ = {
+			isa = PBXGroup;
+			children = (
+				76A32C1BBF913BFCD5B7C00AE9E287BD /* TYCyclePagerTransformLayout.h */,
+				F8E7D4005CD54ADB02CC00D4D5C84D7B /* TYCyclePagerTransformLayout.m */,
+				8F99554FFC9FE543FD10A471B49C8871 /* TYCyclePagerView.h */,
+				5953B6557C043F8524ECCC606AF53D88 /* TYCyclePagerView.m */,
+				6D4163F637473779B86ADC1C95348F5C /* TYPageControl.h */,
+				A54A1DADCF0BF7196C98FC12D6185281 /* TYPageControl.m */,
+				13D0825BEBB8A9136C3A3A712299FB13 /* Support Files */,
+			);
+			name = TYCyclePagerView;
+			path = TYCyclePagerView;
+			sourceTree = "<group>";
+		};
+		519B78605A09A426E20778EFD90BCEA4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				552F9F97577891B68519EFB0B4D0BBB1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C9D091475C6C701F35C659A5C9702DB3 = {
+			isa = PBXGroup;
+			children = (
+				342FA329D939318E1037228A0B8797C8 /* Frameworks */,
+				35EAA483A0DE6A378D16EEAF32D25EB6 /* Products */,
+				4C7C03ACE538F94AEDFA4BE3BD435761 /* TYCyclePagerView */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D1489E61B8FD65E079167B3DF8979AF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE33917212146554D117451A225727A1 /* TYCyclePagerTransformLayout.h in Headers */,
+				16A88C6018625B763655630F45A65038 /* TYCyclePagerView.h in Headers */,
+				86293A1F69B29CFBAB095BE65FF26622 /* TYCyclePagerView-umbrella.h in Headers */,
+				8B963FA3FAD0630C4A065FC2D7AA5E16 /* TYPageControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		99906099C0CF29FDD7BB8CFF63692100 /* TYCyclePagerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F7D2D9E976C545EE1D726C1E9C3F6CA /* Build configuration list for PBXNativeTarget "TYCyclePagerView" */;
+			buildPhases = (
+				D1489E61B8FD65E079167B3DF8979AF0 /* Headers */,
+				C371EF2B55A8D64BD554D91647C30C5B /* Sources */,
+				43BDC9A728F9F2503E8A0A931CC243F5 /* Frameworks */,
+				037EABA2B5A26F1254CA8DBA41724DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYCyclePagerView;
+			productName = TYCyclePagerView;
+			productReference = 17DDF2F06089F1A1B4A910214F1312EE /* TYCyclePagerView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21B6176DAE403648894DE9044860770A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 92DE5F91D29CDAC37F1E00C14DA5B5B2 /* Build configuration list for PBXProject "TYCyclePagerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C9D091475C6C701F35C659A5C9702DB3;
+			productRefGroup = 35EAA483A0DE6A378D16EEAF32D25EB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99906099C0CF29FDD7BB8CFF63692100 /* TYCyclePagerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		037EABA2B5A26F1254CA8DBA41724DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C371EF2B55A8D64BD554D91647C30C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBF4A41E0596B5FFCABC58980A4E0AED /* TYCyclePagerTransformLayout.m in Sources */,
+				32F6BBDED6BE48594265F042A95E396E /* TYCyclePagerView.m in Sources */,
+				DF3024C9396FC8B275A2669F153E518D /* TYCyclePagerView-dummy.m in Sources */,
+				D66545203587C9E7898F19875AEFA241 /* TYPageControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18022FE800E9F1CDB87AFFAF705F5C7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		432DC84CCF6E3584A0352F3370984426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18B1095F1261B7682B58116B11ECCE32 /* TYCyclePagerView.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYCyclePagerView/TYCyclePagerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYCyclePagerView/TYCyclePagerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYCyclePagerView/TYCyclePagerView.modulemap";
+				PRODUCT_MODULE_NAME = TYCyclePagerView;
+				PRODUCT_NAME = TYCyclePagerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6021D242957449B8ED02B74DDCFC8D6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D2F8FED915BAC7EA8900D76BD087F93D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F123FE4D811519E65A7B301828152DF /* TYCyclePagerView.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TYCyclePagerView/TYCyclePagerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TYCyclePagerView/TYCyclePagerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TYCyclePagerView/TYCyclePagerView.modulemap";
+				PRODUCT_MODULE_NAME = TYCyclePagerView;
+				PRODUCT_NAME = TYCyclePagerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F7D2D9E976C545EE1D726C1E9C3F6CA /* Build configuration list for PBXNativeTarget "TYCyclePagerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432DC84CCF6E3584A0352F3370984426 /* Debug */,
+				D2F8FED915BAC7EA8900D76BD087F93D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DE5F91D29CDAC37F1E00C14DA5B5B2 /* Build configuration list for PBXProject "TYCyclePagerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18022FE800E9F1CDB87AFFAF705F5C7C /* Debug */,
+				6021D242957449B8ED02B74DDCFC8D6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21B6176DAE403648894DE9044860770A /* Project object */;
+}

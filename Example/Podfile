@@ -1,0 +1,12 @@
+platform :ios, '13.0'
+install! 'cocoapods',
+disable_input_output_paths: true,
+generate_multiple_pod_projects: true
+
+use_frameworks!
+
+target 'UIAnimationBar_Example' do
+  pod 'UIAnimationBar', :path => '../'
+  pod 'TYCyclePagerView'
+  pod "CollectionKit"
+end

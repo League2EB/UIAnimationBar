@@ -1,0 +1,6 @@
+framework module UIAnimationBar {
+  umbrella header "UIAnimationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}
